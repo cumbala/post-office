@@ -15,8 +15,8 @@ Additional debug information can be printed to `stderr`. To enable, run `make de
 ./proj2 NZ NU TZ TU F
 ```
 ### Arguments
-- `NZ` - Ammount of clients to serve (`NZ > 0`)
-- `NU` - Ammount of post office workers that are able to serve clients (`NU > 0`)
+- `NZ` - Amount of clients to serve (`NZ > 0`)
+- `NU` - Amount of post office workers that are able to serve clients (`NU > 0`)
 - `TZ` - Max sleep time of client, before he enters the office (`0 < TZ < 10000`)
 - `TU` - Max sleep time of worker, before he starts working (`0 < TU < 100`)
 - `F`  - Max time of post office being open (`0 < F < 10000`)
